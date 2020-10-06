@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:background="@drawable/rv_border">
+
+    <com.github.siyamed.shapeimageview.RoundedImageView
+        android:id="@+id/iv_item_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        tools:src="@android:color/darker_gray"
+        app:siRadius="6dp"
+        app:siBorderWidth="3dp"
+        app:siBorderColor="@android:color/holo_green_dark"
+        app:siSquare="true"/>
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        style="@style/TextViewChild"
+        android:layout_toRightOf="@+id/iv_item_avatar"
+        android:text="@string/user"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_toEndOf="@+id/iv_item_avatar"
+        android:layout_marginBottom="1dp"/>
+
+    <ImageView
+        android:id="@+id/iv_item_username"
+        android:layout_width="16dp"
+        android:layout_height="18dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/ic_username"
+        android:layout_below="@id/tv_item_name"
+        android:layout_toEndOf="@+id/iv_item_avatar"
+        android:layout_toRightOf="@+id/iv_item_avatar"
+        android:layout_marginEnd="2dp" />
+
+    <TextView
+        android:id="@+id/tv_item_username"
+        style="@style/TextViewChild"
+        android:layout_below="@id/tv_item_name"
+        android:layout_toEndOf="@+id/iv_item_username"
+        android:layout_toRightOf="@+id/iv_item_username"
+        android:text="@string/username"
+        android:maxLines="1"/>
+
+    <ImageView
+        android:id="@+id/iv_item_company"
+        android:layout_width="16dp"
+        android:layout_height="18sp"
+        android:layout_marginRight="2dp"
+        android:layout_below="@id/tv_item_username"
+        android:layout_toEndOf="@+id/iv_item_avatar"
+        android:layout_toRightOf="@+id/iv_item_avatar"
+        android:src="@drawable/ic_company"
+        android:layout_marginEnd="2dp" />
+
+    <TextView
+        android:id="@+id/tv_item_company"
+        style="@style/TextViewChild"
+        android:layout_below="@id/tv_item_username"
+        android:layout_toEndOf="@+id/iv_item_company"
+        android:layout_toRightOf="@+id/iv_item_company"
+        android:text="@string/company"
+        android:layout_marginBottom="1dp"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/btn_share"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_company"
+        android:layout_toEndOf="@+id/iv_item_avatar"
+        android:layout_toRightOf="@+id/iv_item_avatar"
+        android:drawableStart="@drawable/ic_action_share"
+        android:drawableLeft="@drawable/ic_action_share"
+        android:text="@string/share"
+        android:textSize="12sp" />
+</RelativeLayout>

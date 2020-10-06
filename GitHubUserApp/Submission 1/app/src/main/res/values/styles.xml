@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- SplashScreen application theme. -->
+    <style name="AppThemeSplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009933</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/darker_gray</item>
+    </style>
+
+    <!-- Main application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009933</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+    </style>
+    
+    <!-- Contents theme. -->
+    <style name="BackgroundLayout">
+        <item name="android:background">#333333</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="TextViewChild">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>
