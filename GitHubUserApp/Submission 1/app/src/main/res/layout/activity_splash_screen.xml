@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Github User App"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@android:color/darker_gray"
         android:textSize="22sp"
         android:textStyle="bold"
