@@ -4,14 +4,11 @@ import android.content.Intent
 import android.content.res.TypedArray
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
-import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.SearchView
-import android.widget.Toast
-import androidx.core.content.ContextCompat
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.toBitmap
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -117,6 +114,7 @@ class MainActivity : AppCompatActivity() {
             )
             users.add(user)
         }
+        dataAvatar.recycle()
         return users
     }
 
