@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">Github User (UI, UX &amp; API)</string>
+
+    <string name="tab_followers">Followers\t\t\t</string>
+    <string name="tab_following">Following\t\t\t</string>
+    <string name="splash_screen_app_name">Github User App</string>
+    <string name="status_info">Click and Type to Search Users</string>
+    <string name="type_item_user">Type:</string>
+    <string name="share_item_user">Share</string>
+    <string name="repositories_detail_user">Repositories:</string>
+    <string name="followers_tab_title">Followers</string>
+    <string name="following_tab_title">Following</string>
+    <string name="no_follower_info">There is no follower</string>
+    <string name="type_item_follower">Type:</string>
+    <string name="no_following_info">There is no following</string>
+    <string name="type_following_item">Type:</string>
+    <string name="app_title">Github User App</string>
+    <string name="searching_status_info">Searching…</string>
+    <string name="instruction_status_info">Click and Type to Search Users</string>
+    <string name="users_found_status_info">Users Found</string>
+    <string name="user_not_found_status_info">User not Found</string>
+    <string name="app_title_detail">Detail User</string>
+    <string name="share_github_user">Github User</string>
+    <string name="share_username">Username</string>
+    <string name="share_type">Type</string>
+    <string name="share_name">Name</string>
+    <string name="share_company">Company</string>
+    <string name="share_location">Location</string>
+    <string name="share_repositories">Repositories</string>
+    <string name="share_followers">Followers</string>
+    <string name="share_following">Following</string>
+    <string name="share_using">Share Using</string>
+    <string name="no_name_detail">No Name</string>
+    <string name="no_company_detail">No Company</string>
+    <string name="no_location_detail">No Location</string>
+    <string name="language_settings_menu_item">Language Settings</string>
+    <string name="exit_menu_item">Exit</string>
+    <string name="share_menu_item">Share</string>
+    <string name="search_username">Search Username</string>
+    <string name="github_logo">Github Logo</string>
+</resources>

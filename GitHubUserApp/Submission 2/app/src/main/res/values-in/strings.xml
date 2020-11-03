@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_followers">Pengikut\t\t\t</string>
+    <string name="tab_following">Mengikuti\t\t\t</string>
+    <string name="splash_screen_app_name">Aplikasi Pengguna Github</string>
+    <string name="status_info">Klik dan Ketik untuk Mencari Pengguna</string>
+    <string name="type_item_user">Tipe:</string>
+    <string name="share_item_user">Bagikan</string>
+    <string name="repositories_detail_user">Repositori:</string>
+    <string name="followers_tab_title">Pengikut</string>
+    <string name="following_tab_title">Mengikuti</string>
+    <string name="no_follower_info">Tidak ada pengikut</string>
+    <string name="type_item_follower">Tipe:</string>
+    <string name="no_following_info">Tidak ada yang mengikuti</string>
+    <string name="type_following_item">Tipe:</string>
+    <string name="app_title">Aplikasi Pengguna Github</string>
+    <string name="searching_status_info">Mencari…</string>
+    <string name="instruction_status_info">Klik dan Ketik untuk Mencari Pengguna</string>
+    <string name="users_found_status_info">Pengguna Ditemukan</string>
+    <string name="user_not_found_status_info">Pengguna tidak Ditemukan</string>
+    <string name="app_title_detail">Detil Pengguna</string>
+    <string name="share_github_user">Pengguna Github</string>
+    <string name="share_username">Nama Pengguna</string>
+    <string name="share_type">Tipe</string>
+    <string name="share_name">Nama</string>
+    <string name="share_company">Perusahaan</string>
+    <string name="share_location">Lokasi</string>
+    <string name="share_repositories">Repositori</string>
+    <string name="share_followers">Pengikut</string>
+    <string name="share_following">Mengikuti</string>
+    <string name="share_using">Bagikan Menggunakan</string>
+    <string name="no_name_detail">Tidak ada Nama</string>
+    <string name="no_company_detail">Tidak ada Perusahaan</string>
+    <string name="no_location_detail">Tidak ada Lokasi</string>
+    <string name="language_settings_menu_item">Pengaturan Bahasa</string>
+    <string name="exit_menu_item">Keluar</string>
+    <string name="share_menu_item">Bagikan</string>
+    <string name="search_username">Cari Nama Pengguna</string>
+    <string name="github_logo">Logo Github</string>
+</resources>
