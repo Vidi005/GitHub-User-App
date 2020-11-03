@@ -29,4 +29,4 @@
 14. User Followers
 15. User Following
 16. Number of Search Results
-17. Tab Layout
+17. Tab Layout & View Pager
