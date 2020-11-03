@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -117,25 +118,18 @@ class DetailUserFragment : Fragment() {
         tabs.setupWithViewPager(view_pager)
         activity?.actionBar?.elevation = 0f
     }
-
-    @Suppress("DEPRECATION")
+    
     private fun showUserDetails(detailUserItems: UserDetail) {
-        if (detailUserItems.name?.isEmpty()!! || detailUserItems.name == "null") {
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-                tv_name_detail.resources.getColor(android.R.color.darker_gray)
-            } else tv_name_detail.context.getColor(android.R.color.darker_gray)
+        if (detailUserItems.name?.isEmpty() == true || detailUserItems.name == "null") {
+            tv_name_detail.setTextColor(ContextCompat.getColor(requireContext(), android.R.color.darker_gray))
             tv_name_detail.text = getString(R.string.no_name_detail)
         } else tv_name_detail.text = detailUserItems.name
-        if (detailUserItems.company?.isEmpty()!! || detailUserItems.company == "null") {
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-                tv_company_detail.resources.getColor(android.R.color.darker_gray)
-            } else tv_company_detail.context.getColor(android.R.color.darker_gray)
+        if (detailUserItems.company?.isEmpty() == true || detailUserItems.company == "null") {
+            tv_company_detail.setTextColor(ContextCompat.getColor(requireContext(), android.R.color.darker_gray))
             tv_company_detail.text = getString(R.string.no_company_detail)
         } else tv_company_detail.text = detailUserItems.company
-        if (detailUserItems.location?.isEmpty()!! || detailUserItems.location == "null") {
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-                tv_location_detail.resources.getColor(android.R.color.darker_gray)
-            } else tv_location_detail.context.getColor(android.R.color.darker_gray)
+        if (detailUserItems.location?.isEmpty() == true || detailUserItems.location == "null") {
+            tv_location_detail.setTextColor(ContextCompat.getColor(requireContext(), android.R.color.darker_gray))
             tv_location_detail.text = getString(R.string.no_location_detail)
         } else tv_location_detail.text = detailUserItems.location
         tv_repositories_detail.text = detailUserItems.repositories.toString()
