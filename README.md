@@ -30,3 +30,17 @@
 15. User Following
 16. Number of Search Results
 17. Tab Layout & View Pager
+
+### Submission 3:
+#### Components & Features:
+1. All of Components & Features in Submission 1 & 2
+2. CRUD Database with SQLite
+3. Repeating Alarm Manager
+4. Favorites Github User App with Content Provider
+5. Notification with Pending Intent to Home
+6. Favorite User Page
+7. Daily Reminder & Language Settings
+8. Consumer App Module
+9. Floating Action Button for Adding Favorite User to Database
+10. Favorite Stack Widget
+11. Navigation Deep Link from Widget to Favorite User Fragment.
