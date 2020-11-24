@@ -44,3 +44,4 @@
 9. Floating Action Button for Adding Favorite User to Database
 10. Favorite Stack Widget
 11. Navigation Deep Link from Widget to Favorite User Fragment.
+12. Shared Preferences
