@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/userFavoritesFragment">
+
+    <fragment
+        android:id="@+id/userFavoritesFragment"
+        android:name="com.dicoding.picodiploma.consumerapp.view.UserFavoritesFragment"
+        android:label="fragment_user_favorites"
+        tools:layout="@layout/fragment_user_favorites" >
+        <action
+            android:id="@+id/action_userFavoritesFragment_to_detailUserFragment"
+            app:destination="@id/detailUserFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailUserFragment"
+        android:name="com.dicoding.picodiploma.consumerapp.view.DetailUserFragment"
+        android:label="DetailUserFragment" />
+</navigation>
