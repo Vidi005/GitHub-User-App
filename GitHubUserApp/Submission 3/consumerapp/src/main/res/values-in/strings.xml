@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_followers">Pengikut\t\t\t</string>
+    <string name="tab_following">Mengikuti\t\t\t</string>
+    <string name="splash_screen_app_name">Aplikasi Pengguna Github Favorit</string>
+    <string name="type_item_user">Tipe:</string>
+    <string name="repositories_detail_user">Repositori:</string>
+    <string name="followers_tab_title">Pengikut</string>
+    <string name="following_tab_title">Mengikuti</string>
+    <string name="no_follower_info">Tidak ada pengikut</string>
+    <string name="type_item_follower">Tipe:</string>
+    <string name="no_following_info">Tidak ada yang mengikuti</string>
+    <string name="type_following_item">Tipe:</string>
+    <string name="app_title">Aplikasi Pengguna Github Favorit</string>
+    <string name="app_title_detail">Detil Pengguna Favorit</string>
+    <string name="share_github_user">Pengguna Github</string>
+    <string name="share_github_user_detail">Detil Pengguna Github</string>
+    <string name="share_username">Nama Pengguna</string>
+    <string name="share_type">Tipe</string>
+    <string name="share_name">Nama</string>
+    <string name="share_company">Perusahaan</string>
+    <string name="share_location">Lokasi</string>
+    <string name="share_repositories">Repositori</string>
+    <string name="share_followers">Pengikut</string>
+    <string name="share_following">Mengikuti</string>
+    <string name="share_using">Bagikan Menggunakan</string>
+    <string name="no_name_detail">Tidak ada Nama</string>
+    <string name="no_company_detail">Tidak ada Perusahaan</string>
+    <string name="no_location_detail">Tidak ada Lokasi</string>
+    <string name="settings_menu_item">Pengaturan</string>
+    <string name="share_menu_item">Bagikan</string>
+    <string name="github_logo">Logo Github</string>
+    <string name="favorite_status_info">Tidak ada Pengguna yang ditambahkan ke Favorit</string>
+    <string name="favorite_menu_item">Favorit</string>
+    <string name="load_database">Memuat Data…</string>
+    <string name="app_title_user_favorites">Pengguna Github difavoritkan</string>
+    <string name="favored_user">Favored Users</string>
+    <string name="user_favorites_search_result">Hasil Pencarian</string>
+    <string name="search_items">Cari Pengguna atau Nama Pengguna</string>
+</resources>

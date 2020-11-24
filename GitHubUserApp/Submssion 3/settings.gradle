@@ -1,3 +1,0 @@
-rootProject.name='Github User App Final'
-include ':app'
-include ':consumerapp'

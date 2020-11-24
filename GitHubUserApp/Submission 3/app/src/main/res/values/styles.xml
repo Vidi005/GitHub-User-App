@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- SplashScreen application theme. -->
+    <style name="AppThemeSplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009933</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/darker_gray</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#009933</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Contents theme. -->
+    <style name="BackgroundUser">
+        <item name="android:background">#333333</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="BackgroundViewPagerUserItem">
+        <item name="android:background">#606060</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="TextViewUsername">
+        <item name="android:textColor">@color/colorUsernameText</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="TextViewContent">
+        <item name="android:textColor">@color/colorTextContent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="TextViewName" parent="TextViewContent">
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="TextViewContent.TextViewInfo">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="BackgroundSettings" parent="BackgroundUser">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>
