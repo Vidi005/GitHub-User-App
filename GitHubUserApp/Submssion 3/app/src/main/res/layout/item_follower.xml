@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="6dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/BackgroundViewPagerUserItem"
+        android:padding="4dp">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/riv_item_avatar_follower"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:siBorderColor="#4CAF50"
+            app:siBorderWidth="3dp"
+            app:siRadius="6dp"
+            app:siSquare="true"
+            tools:src="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_item_username_follower"
+            style="@style/TextViewUsername"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Username"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            app:layout_constraintBottom_toTopOf="@+id/tv_item_id_follower"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_id_follower"
+            style="@style/TextViewContent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="ID:"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_item_id_follower"
+            app:layout_constraintEnd_toStartOf="@+id/tv_item_id_follower"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/tv_item_id_follower" />
+
+        <TextView
+            android:id="@+id/tv_item_id_follower"
+            style="@style/TextViewContent"
+            android:layout_width="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:maxLines="1"
+            android:text="Id"
+            app:layout_constraintBottom_toTopOf="@+id/tv_item_type_follower"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_id_follower"
+            app:layout_constraintTop_toBottomOf="@+id/tv_item_username_follower" />
+
+        <TextView
+            android:id="@+id/tv_type_follower"
+            style="@style/TextViewContent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/type_item_follower"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_item_type_follower"
+            app:layout_constraintEnd_toStartOf="@+id/tv_item_type_follower"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/tv_item_type_follower" />
+
+        <TextView
+            android:id="@+id/tv_item_type_follower"
+            style="@style/TextViewContent"
+            android:layout_width="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:maxLines="1"
+            android:text="Type"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_type_follower"
+            app:layout_constraintTop_toBottomOf="@+id/tv_item_id_follower" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="100dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

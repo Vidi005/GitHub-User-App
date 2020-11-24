@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundUser"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_gravity="center"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="6dp"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/BackgroundUser"
+        android:padding="4dp">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/riv_item_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:siBorderColor="#4CAF50"
+            app:siBorderWidth="3dp"
+            app:siRadius="6dp"
+            app:siSquare="true"
+            tools:src="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_item_username"
+            style="@style/TextViewUsername"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:maxLines="1"
+            android:text="Username"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/riv_item_avatar" />
+
+        <TextView
+            android:id="@+id/tvItemId"
+            style="@style/TextViewContent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="ID:"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_item_id"
+            app:layout_constraintEnd_toStartOf="@+id/tv_item_id"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/tv_item_id" />
+
+        <TextView
+            android:id="@+id/tv_item_id"
+            style="@style/TextViewContent"
+            android:layout_width="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:maxLines="1"
+            android:text="id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvItemId"
+            app:layout_constraintTop_toBottomOf="@+id/tv_item_username" />
+
+        <TextView
+            android:id="@+id/tvItemType"
+            style="@style/TextViewContent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/type_item_user"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_item_type"
+            app:layout_constraintEnd_toStartOf="@+id/tv_item_type"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/tv_item_type" />
+
+        <TextView
+            android:id="@+id/tv_item_type"
+            style="@style/TextViewContent"
+            android:layout_width="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:maxLines="1"
+            android:text="Type"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvItemType"
+            app:layout_constraintTop_toBottomOf="@+id/tv_item_id" />
+
+        <Button
+            android:id="@+id/btn_share"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_action_share"
+            android:drawableLeft="@drawable/ic_action_share"
+            android:text="@string/share_item_user"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/riv_item_avatar"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_type" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="124dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
